@@ -25,4 +25,4 @@ jobs:
       run: pip install -r src/requirements.txt
     - name: Test with pytest
       working-directory: src
-      run: pytest test.py
+      run: pytest tests.py
